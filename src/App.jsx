@@ -6,9 +6,12 @@ import Home from "./pages/Home";
 export default function App() {
     return (
         <>
-            <Navbar />
+        <div className="bg-slate-900 text-white py-12">
+            <h1 className="text-4xl font-bold text-center">APTS</h1>
+        </div>
+            {/* <Navbar />
             <Home />
-            <Footer />
+            <Footer /> */}
         </>
     );
 }
